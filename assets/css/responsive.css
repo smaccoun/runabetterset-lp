@@ -1,0 +1,550 @@
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+    
+/* ************************************************************************************* */
+/* Initializr Styles */
+/* ************************************************************************************* */
+.content {
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+/* ************************************************************************************* */
+/* Typography */
+/* ************************************************************************************* */
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.6em;
+}
+
+/* ************************************************************************************* */
+/* Header */
+/* ************************************************************************************* */
+header {
+    width: 100%;
+    height: auto;
+}
+
+.header-bg {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* Nav */
+.nav section {
+    position: relative;
+    padding: 30px 0 30px 0;   
+}
+
+.nav h1 {
+    float: none;
+    margin: a;
+    text-align: center;
+}
+
+.nav h1 a {
+    color: #565353;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav h1 span {
+    color: #f36959;
+}
+
+/* Desktop Navigation */
+.main-navigation ul {
+    list-style: none;
+    float: none;
+    display: block;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-navigation ul li {
+    display: block;
+    margin: 30px 0 0 0;
+}
+
+.main-navigation ul li:last-child a {
+    color: #f36959;
+    border: 2px solid #f36959;
+    padding: 9px 16px 9px 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    font-size: 0.87em;
+    letter-spacing: 0.13em;
+    margin-top: 10px;
+}
+
+.nav section:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+    
+/* ************************************************************************************* */
+/* Main */
+/* ************************************************************************************* */
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    z-index: 5;
+    text-align: center;
+}
+
+main section img.main-iphone {
+    max-width: 100%;
+    height: auto;
+    float: none;
+}
+
+main section {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+main section > div {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+main section > div h2 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+main section > div p {
+    color: #f7f7f7;
+    font-size: 0.8em;
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+main section a {
+    color: #ffffff;
+    padding: 13px 21px 13px 21px;
+    font-weight: 700;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    font-size: 0.87em;
+    letter-spacing: 0.13em;
+    background: #ec605f;
+    background: -moz-linear-gradient( #f66d57 , #ec605f);
+    background: -o-linear-gradient( #f66d57 , #ec605f);
+    background: -webkit-linear-gradient( #f66d57 , #ec605f);
+    -moz-box-shadow: 3px 6px 20px #d14a4a;
+    -o-box-shadow: 3px 6px 20px #d14a4a;
+    -webkit-box-shadow: 3px 6px 20px #d14a4a;
+    box-shadow: 3px 6px 20px #d14a4a;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+/* ************************************************************************************* */
+/* Categories */
+/* ************************************************************************************* */
+.categories {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.categories section {
+    width: 100%;
+    padding: 3em 0 3em 0;
+}
+    
+/* ************************************************************************************* */
+/* Wrapid - Screenshots */
+/* ************************************************************************************* */
+.wrapid-screenshots {
+    background: #23232e;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.wrapid-screenshots img {
+    display: block;
+    margin: auto;
+}
+    
+/* ************************************************************************************* */
+/* Main Sections */
+/* ************************************************************************************* */
+.main-sections  section {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main-sections  section div {
+    width: 100%;
+    text-align: center;
+}
+
+.main-sections  section div:first-child > div {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    padding-right: 0;
+}
+    
+.main-sections  section p {
+    width: 50%;
+    margin: auto;
+}
+
+/* Rotated */
+.main-sections  section.rotated {
+    flex-direction: column-reverse;
+    position: relative;
+}
+
+.main-sections  section.rotated div:first-child > div {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.main-sections  section div:first-child > div h4 {
+    font-weight: 300;
+    position: relative;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.main-sections  section div:first-child > div h4:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.main-sections  section.rotated div:first-child > div h4:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/* ************************************************************************************* */
+/* Sign Up */
+/* ************************************************************************************* */
+.sign-up {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.sign-up h5 {
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.sign-up h5:after {
+    content: '';
+    width: 70px;
+    height: 8px;
+    background: url(../img/curvy-line.svg) no-repeat;
+    position: absolute;
+    display: inline-block;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.sign-up p {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+    
+.sign-up p br {
+    display: block;
+}
+    
+/* ************************************************************************************* */
+/* About Us */
+/* ************************************************************************************* */
+.about-us {
+    width: 80%;
+}
+
+.about-us section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-us section .about-image,
+.about-us section .about-text {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+/* About Image */
+.about-us section .about-image {
+    text-align: center;
+}
+
+.about-us section .about-image img {
+    max-width: 70%;
+    height: auto;
+}
+
+/* About Text */
+.about-us section .about-text > div {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    right: 0;
+    left: 0;
+}
+
+.about-us section .about-text h6 {
+    font-weight: 300;
+    font-size: 2.6m;
+    margin-top: 20px;
+}
+
+.about-us section .about-text p {
+    color: #727272;
+    font-size: 0.9em;
+    margin-top: 15px;
+    line-height: 2em;
+}
+
+.about-us section .about-text {
+    text-align: center;
+}
+
+/* Rotated */
+.about-us section.rotated {
+    flex-direction: column;
+}
+
+.about-us section.rotated .about-image {
+    text-align: center;
+}
+
+.about-us section.rotated .about-text {
+    text-align: center;
+}
+
+/* ************************************************************************************* */
+/* Footer */
+/* ************************************************************************************* */
+/* Navigation */
+footer nav ul {
+    font-size: 0.8em;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    color: #727272;
+    font-size: 0.9em;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-bottom section {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.social a {
+    font-size: 1.3em;
+    margin: 0 12px 0 12px;
+}
+    
+.copyright,
+.fa-arrow-up {
+    margin: auto;
+}
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+/* ************************************************************************************* */
+/* Wrapid - Screenshots */
+/* ************************************************************************************* */
+.wrapid-screenshots {
+    padding-top: 30px;
+}
+    
+.wrapid-screenshots .wrapid-logo-text {
+    max-width: 160px;
+    height: auto;
+}
+    
+.wrapid-screenshots .screenshot {
+    max-width: 90%;
+}
+    
+/* ************************************************************************************* */
+/* Main Sections */
+/* ************************************************************************************* */
+.main-sections  section p {
+    width: 80%;
+    margin: auto;
+}
+
+main section img.main-iphone {
+    max-width: 80%;
+    height: auto;
+}
+    
+/* ************************************************************************************* */
+/* Sign Up */
+/* ************************************************************************************* */
+    
+/* Form */
+.sign-up #contact_form {
+    width: 90%;
+}
+    
+.form-name,
+.form-iama {
+    width: 100%;
+    display: block;
+}
+
+.form-name {
+    float: none;
+}
+
+.form-iama {
+    float: none;
+}
+    
+
+/* ************************************************************************************* */
+/* About Us */
+/* ************************************************************************************* */
+.about-us {
+    width: 80%;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+/* ************************************************************************************* */
+/* Main */
+/* ************************************************************************************* */
+main section > div h2 {
+    width: 60%;
+}
+
+main section > div p {
+    width: 50%;
+}
+    
+/* ************************************************************************************* */
+/* Categories */
+/* ************************************************************************************* */
+.categories p {
+    width: 55%;
+    margin: auto;
+}
+
+    
+.wrapid-screenshots .screenshot {
+    max-width: 90%;
+}
+    
+/* ************************************************************************************* */
+/* Main Sections */
+/* ************************************************************************************* */
+.main-sections section h4 {
+    width: 60%;
+    margin: auto;
+}
+    
+.main-sections section p {
+    width: 50%;
+    margin: auto;
+}
+    
+main section img.main-iphone {
+    max-width: 80%;
+    height: auto;
+}
+    
+.sign-up #contact_form {
+    width: 70%;
+}
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+
+/* ************************************************************************************* */
+/* Main Sections */
+/* ************************************************************************************* */
+main section > div {
+    position: absolute;
+    top: 20%;
+    transform: translateY(-20%);
+    width: 90%;
+}
+
+main section img.main-iphone {
+    max-width: 50%;
+    height: auto;
+}
+    
+.wrapid-screenshots .screenshot {
+    max-width: 60%;
+}
+
+}
