@@ -2,7 +2,7 @@
 require('sendgrid-php/sendgrid-php.php');
 if($_POST)
 {
-    $to_email       = "theraccoun@gmail.com"; //Recipient email, Replace with own email here
+    $to_email       = "josh@runabetterset.com"; //Recipient email, Replace with own email here
     $from_email     = 'josh@runabetterset.com'; //from mail, it is mandatory with some hosts and without it mail might endup in spam.
 
     //check if its an ajax request, exit if not
