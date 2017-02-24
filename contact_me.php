@@ -55,13 +55,16 @@ if($_POST)
     $content = new SendGrid\Content("text/plain", $message_body);
     $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
-    $apiKey = getenv('SENDGRID_API_KEY');
+   echo '<script>console.log("Your stuff here")</script>';
+
+    $apiKey = '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';
     $sg = new \SendGrid($apiKey);
 
     $response = $sg->client->mail()->send()->post($mail);
     echo $response->statusCode();
     echo $response->headers();
     echo $response->body();
+
 
     $output = "Thank you for contacting us. A representative will be with you soon.";
     die($output);
