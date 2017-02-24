@@ -57,7 +57,7 @@ if($_POST)
 
    echo '<script>console.log("Your stuff here")</script>';
 
-    $apiKey = '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';
+    $apiKey = getenv('SENDGRID_API_KEY');
     $sg = new \SendGrid($apiKey);
 
     $response = $sg->client->mail()->send()->post($mail);
