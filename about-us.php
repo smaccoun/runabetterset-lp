@@ -35,7 +35,7 @@
                 <div class="about-text">
                     <div>
                         <h6>Steve <br>MacCoun</h6>
-                        <p>Our CTO obsesses over every line of code and each algorithm. A Master in Computer Science from the University of Colorado with a decade of engineering experience, Steve is eager to solve problems. If you meet him, talk about Astrological Buddhism!</p>
+                        <p>Our CTO obsesses over every line of code and has an unhealthy obsession with functional reactive programming. A Master in Computer Science from the University of Colorado with years of experience in everything from front-end 3D graphics to data modeling large data warehouses, Steve is eager to solve problems in all areas of the software stack. If you meet him, talk about Astrological Buddhism!</p>
                     </div>
                 </div>
             
